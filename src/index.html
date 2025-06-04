@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="./output.css" rel="stylesheet" />
+    <title>PDF MERGER WEBSITE</title>
+  </head>
+  <body style="color: cornsilk" >
+    <div style="display: flex; justify-content: center;">
+      <h2 style="font-size: 30px; font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; color:blueviolet" >PDF MERGER TOOL</h2>
+    </div>
+
+    <div style="display: flex; justify-content: center;">
+      <h2 style="font-size: 30px; font-family:Arial, Helvetica, sans-serif; color: black; " >Combine PDFs in the order you want with the easiest PDF merger available.</h2>
+    </div>
+
+    <div style="display: flex; justify-content: center; margin-top: 20px;">
+    <div>
+      <form action="/merge" method="post" enctype="multipart/form-data">
+        <div>
+          <input type="file" name="pdfs"  multiple accept=".pdf" style="color: red; " />
+        </div>
+        <div class="but" style="margin-top: 30px;">
+          <input type="submit" value="Merge"/>
+        </div>
+      </form>
+    </div>
+</div>
+  </body>
+</html>

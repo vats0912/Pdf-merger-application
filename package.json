@@ -1,0 +1,38 @@
+{
+  "name": "fs_module",
+  "version": "1.0.0",
+  "description": "About Backend Development",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon server.js",
+    "dev": "",
+    "build":"tailwindcss -i ./src/input.css -o ./src/output.css --watch"
+  },
+  "author": "Tanuj",
+  "license": "ISC",
+  "dependencies": {
+    "@tailwindcss/cli": "^4.0.0",
+    "@tailwindcss/postcss": "^4.0.1",
+    "@tailwindcss/vite": "^4.0.1",
+    "express": "^4.19.2",
+    "multer": "^1.4.5-lts.1",
+    "node": "^18.20.4",
+    "nodemon": "^3.1.4",
+    "pdf-merger-js": "^4.1.0",
+    "postcss": "^8.5.1",
+    "tailwindcss": "^4.0.1",
+    "uuid": "^11.0.5"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vatsta/Backend_file.git"
+  },
+  "keywords": [
+    "dnjf"
+  ],
+  "bugs": {
+    "url": "https://github.com/vatsta/Backend_file/issues"
+  },
+  "homepage": "https://github.com/vatsta/Backend_file#readme"
+}
